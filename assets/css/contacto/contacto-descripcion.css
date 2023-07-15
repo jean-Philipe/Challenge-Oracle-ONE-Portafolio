@@ -1,0 +1,12 @@
+.contacto__descripcion{
+    color: #464646;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    white-space: pre-wrap;
+    font-size: 1rem;
+}
+@media screen and (max-width:1024px) {
+    .contacto__descripcion{
+        padding-right: 1rem;
+    }
+}

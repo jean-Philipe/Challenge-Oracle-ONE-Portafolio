@@ -1,0 +1,26 @@
+.contacto__input{
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+}
+@media screen and (max-width:768px) {
+    .contacto__input{
+        height: 2rem;
+        width: calc(100% - 2.7rem);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .contacto__input{
+        height: 2rem;
+        width: 100% ;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .contacto__input{
+        height: 1.5rem;
+    }
+}

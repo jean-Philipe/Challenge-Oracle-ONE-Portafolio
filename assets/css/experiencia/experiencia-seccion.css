@@ -1,0 +1,11 @@
+.experiencia__seccion{
+    display: flex;
+    margin: 2rem 0;
+}
+@media screen and (max-width:1024px) {
+    .experiencia__seccion{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+}

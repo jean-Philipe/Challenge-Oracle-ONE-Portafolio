@@ -1,0 +1,104 @@
+#boton-encriptar {
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vh;
+    cursor: pointer;
+    background-color: rgb(43, 129, 241);
+    width: 50vh;
+    height: 8vh;
+
+}
+#boton-desencriptar {
+    border: 2px solid rgb(118, 172, 244);
+    border-radius: 30px;
+    color:  rgb(118, 172, 244);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vh;
+
+    cursor: pointer;
+    background-color: white;
+    width: 50vh;
+    height: 8vh;
+}
+#boton-copiar{
+    border: 2px solid rgb(118, 172, 244);
+    border-radius: 30px;
+    color:  rgb(118, 172, 244);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vh;;
+    margin: 7px 1vw;
+    cursor: pointer;
+    margin-left: 12vh;
+    background-color: white;
+    width: 20vw;
+    height: 8vh;
+}
+#barra-msj {
+    font-size: 2.5vw;
+    width: 65vw;
+    height: 75vh;
+    word-wrap: break-word;
+    border: 2px solid rgb(118, 172, 244);
+    background-color:rgb(238, 242, 247);
+    color:  rgb(0, 63, 146);
+    
+}
+#mensaje {
+    text-align: center;
+    float: left;
+    font-size: 1.5vw;
+    background-color: white;
+    border-radius: 10px;
+    border-color: rgb(118, 172, 244);
+    margin: 0px 1vw;
+    width: 30vw;
+    height: 75vh;
+}
+#imagen{
+    width: 20vw;
+    height: 32vh;
+    float: left;
+    margin: 0px 5vw;
+}
+@media (max-width: 1000px){
+    #mensaje {
+        font-size: 4vw;
+        width: 90vw;
+        height: 50vh;
+        margin: 0px 1vw;
+    }
+    #boton-copiar{
+        margin-left: 0px;
+        width: 90vw;
+        margin: 1vw 0vh;
+    }
+    #imagen{
+        width: 0vw;
+        height: vh;
+        margin: 0px 0vw;
+    }
+    #barra-msj {
+        font-size: 3vh;
+        width: 90vw;
+        height: 50vh;
+    }
+    #boton-encriptar {
+        width: 90vw;
+    }
+    #boton-desencriptar {
+        width: 90vw;
+        margin: 1vw 0vh;
+    }
+
+}

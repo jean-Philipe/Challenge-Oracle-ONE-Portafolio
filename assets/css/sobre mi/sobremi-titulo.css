@@ -1,0 +1,16 @@
+.sobremi__titulo{
+    color: #464646;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+@media screen and (max-width:1024px) {
+    .sobremi__titulo{
+        font-size: 1.375rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .sobremi__titulo{
+        font-size: 2rem;
+        margin-left: 2.5rem;
+    }
+}

@@ -1,0 +1,34 @@
+.skills__contenido{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+@media screen and (max-width:768px) {
+    .skills__contenido{
+        width: 9rem;
+        height: 9rem;
+        margin: 0.75rem;
+        flex-basis: calc(33.33% - 1rem);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .skills__contenido{
+        width: 9rem;
+        height: 9rem;
+        margin: 0.75rem;
+        flex-basis: calc(33.33% - 1.5rem);
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .skills__contenido{
+        width: 12.5rem;
+        height: 12.5rem;
+        margin: 0.5rem;
+        margin-right: 1.5rem;
+    }
+}

@@ -1,0 +1,17 @@
+.sobremi__descripcion{
+    color: #464646;
+    white-space: pre-wrap;
+}
+@media screen and (max-width:1024px) {
+    .sobremi__descripcion{
+        font-size: 0.875rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .sobremi__descripcion{
+        margin-left: 2.5rem;
+        padding-right: 40%;
+    }
+}

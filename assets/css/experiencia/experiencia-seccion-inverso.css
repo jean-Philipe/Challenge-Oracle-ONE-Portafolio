@@ -1,0 +1,5 @@
+@media screen and (max-width:1024px) {
+    .experiencia__seccion--inverso{
+        order: 1;
+    }
+}

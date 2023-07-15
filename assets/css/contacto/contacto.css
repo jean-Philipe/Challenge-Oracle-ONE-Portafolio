@@ -1,0 +1,19 @@
+.contacto{
+    display: flex;
+    justify-content: center;
+    background-color: #EAF2FD;
+}
+@media screen and (max-width:1024px) {
+    .contacto{
+        flex-direction: column;
+        padding: 2rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .contacto{
+        padding: 4rem 1rem;
+    }
+}

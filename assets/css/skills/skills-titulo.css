@@ -1,0 +1,16 @@
+.skills__titulo{
+    text-align: center;
+    color: #464646;
+    font-weight: bold;
+    
+}
+@media screen and (max-width:1024px) {
+    .skills__titulo{
+        font-size: 1.375rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .skills__titulo{
+        font-size: 2rem;
+    }
+}

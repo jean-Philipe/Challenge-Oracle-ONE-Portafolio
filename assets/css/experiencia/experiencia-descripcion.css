@@ -1,0 +1,15 @@
+.experiencia__descripcion{
+    margin-bottom: 0.5rem;
+
+}
+@media screen and (max-width:1024px) {
+    .experiencia__descripcion{
+        font-size: 0.875rem;
+        margin-bottom: .5rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .experiencia__descripcion{
+        font-size: 1rem;
+    }
+}

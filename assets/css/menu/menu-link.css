@@ -1,0 +1,10 @@
+.menu__link{
+    text-decoration: none;
+    color: #464646;
+}
+
+@media screen and (min-width: 1024px) {
+    .menu__link{
+        margin-right: 1.5rem;
+    }
+}

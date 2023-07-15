@@ -1,0 +1,18 @@
+.contacto__legenda{
+    background-color: white;
+    border: none;
+    color: #A2A2A2;
+    font-size: 1rem;
+}
+@media screen and (max-width:768px) {
+    .contacto__legenda{
+        width: calc(100% - 2.7rem);
+        height: 2rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .contacto__legenda{
+        width: 55rem;
+        height: 3rem;
+    }
+}

@@ -1,0 +1,16 @@
+.formacion__fecha{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: #464646;
+    align-self: flex-start;
+}
+@media screen and (max-width:1024px) {
+    .formacion__fecha{
+        font-size: 0.875rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .formacion__fecha{
+        font-size: 1rem;
+    }
+}

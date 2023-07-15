@@ -1,0 +1,10 @@
+.formacion__lista{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:768px) {
+    .formacion__lista{
+        flex-direction: column;
+        align-items: center;
+    }
+}

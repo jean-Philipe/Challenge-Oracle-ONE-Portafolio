@@ -1,0 +1,18 @@
+.banner__imagen{
+    margin-right: 2rem;
+}
+
+@media screen and (max-width:768px){
+    .banner__imagen{
+        order: -1;
+        width: 8rem;
+        height: 8rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .banner__imagen{
+        width: 10rem;
+        height: 10rem;
+        margin-right: 6rem;
+    }
+}

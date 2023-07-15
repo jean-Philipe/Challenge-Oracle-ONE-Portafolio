@@ -1,0 +1,23 @@
+.info__menu__link{
+    text-decoration: none;
+    color: #464646;
+    font-weight: bold;
+}
+@media screen and (max-width:768px){
+    .info__menu__link{
+        font-size: 0.875rem;
+        margin-right: .25rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .info__menu__link{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .info__menu__link{
+        font-size: 1rem;
+        margin-right: .5rem;
+    }
+}

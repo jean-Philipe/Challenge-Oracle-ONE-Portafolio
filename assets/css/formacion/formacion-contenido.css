@@ -1,0 +1,24 @@
+ .formacion__contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    box-sizing: border-box;
+    padding: 0.625rem;
+
+}
+@media screen and (max-width:1024px) {
+    .formacion__contenido{
+        width: 17.7rem;
+        height: 15.7rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .formacion__contenido{
+        width: 22rem;
+        height: 20rem;
+        margin: 1rem 0rem;
+    }
+}

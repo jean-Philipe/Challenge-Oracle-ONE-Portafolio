@@ -1,0 +1,30 @@
+.banner{
+    display: flex;
+}
+
+@media screen and (max-width:768px){
+    .banner{
+        margin-left: 1rem;
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .banner{
+        margin-top: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .banner{
+        margin-top: 5rem;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}

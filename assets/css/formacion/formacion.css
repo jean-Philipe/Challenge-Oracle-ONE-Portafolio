@@ -1,0 +1,17 @@
+.formacion{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   background-color: #EAF2FD;
+}
+@media screen and (max-width:1024px) {
+    .formacion{
+      padding-top: 2rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .formacion{
+      padding-top: 4rem;
+    }
+}
